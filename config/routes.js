@@ -30,7 +30,8 @@ module.exports.routes = {
   '/test': {
     view: 'pages/homepage'
   },
-  'GET /anothertest/:name': 'SongController.test'
+  'GET /anothertest/:name': 'SongController.test',
+  'GET /search/:artist/:year': 'SearchController.search'
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
